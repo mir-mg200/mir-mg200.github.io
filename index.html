@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="imagenes/perfil/fp.jpg" alt="Profile Picture">
+            <div class="profile-info">
+                <h2>@honeymoon</h2>
+                <p>20.6M seguidores | 671 seguidos</p>
+            </div>
+        </div>
+        
+        <div class="stories">
+            <div class="story"><img src="imagenes/perfil/d1.jpg" alt="story"></div>
+            <div class="story"><img src="imagenes/perfil/d2.jpg" alt="story"></div>
+            <div class="story"><img src="imagenes/perfil/d3.jpg" alt="story"></div>
+            <div class="story"><img src="imagenes/perfil/d4.jpg" alt="story"></div>
+            <div class="story"><img src="imagenes/perfil/d5.jpg" alt="story"></div>
+        </div>
+<hr>
+        <div class="icon-bar">
+            <img src="imagenes/iconos/feed 1.png" alt="Icon 1">
+            <img src="imagenes/iconos/reels 2.png" alt="Icon 2">
+            <img src="imagenes/iconos/taggear 3.png" alt="Icon 3">
+        </div>
+<hr>
+        <div class="posts">
+            <!-- Cada post con su respectiva imagen y número de interacciones -->
+            <div class="post" onclick="openLightbox('imagenes/1.png', 150, 20)">
+                <img src="imagenes/1.png" alt="Post 1">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/2.jpeg', 100, 15)">
+                <img src="imagenes/2.jpeg" alt="Post 2">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/3.jpeg', 200, 30)">
+                <img src="imagenes/3.jpeg" alt="Post 3">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/4.jpeg', 120, 40)">
+                <img src="imagenes/4.jpeg" alt="Post 4">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/5.jpeg', 80, 25)">
+                <img src="imagenes/5.jpeg" alt="Post 5">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/6.jpeg', 95, 35)">
+                <img src="imagenes/6.jpeg" alt="Post 6">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/7.jpeg', 110, 60)">
+                <img src="imagenes/7.jpeg" alt="Post 7">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/8.jpeg', 130, 50)">
+                <img src="imagenes/8.jpeg" alt="Post 8">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/9.jpeg', 140, 55)">
+                <img src="imagenes/9.jpeg" alt="Post 9">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/10.jpeg', 90, 45)">
+                <img src="imagenes/10.jpeg" alt="Post 10">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/11.jpeg', 160, 70)">
+                <img src="imagenes/11.jpeg" alt="Post 11">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/12.png', 105, 30)">
+                <img src="imagenes/12.png" alt="Post 12">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/13.png', 150, 80)">
+                <img src="imagenes/13.png" alt="Post 13">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/14.png', 110, 50)">
+                <img src="imagenes/14.png" alt="Post 14">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/15.png', 90, 60)">
+                <img src="imagenes/15.png" alt="Post 15">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/16.png', 120, 55)">
+                <img src="imagenes/16.png" alt="Post 16">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/17.png', 100, 45)">
+                <img src="imagenes/17.png" alt="Post 17">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/18.png', 150, 70)">
+                <img src="imagenes/18.png" alt="Post 18">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/19.png', 180, 80)">
+                <img src="imagenes/19.png" alt="Post 19">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/20.png', 130, 60)">
+                <img src="imagenes/20.png" alt="Post 20">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/21.png', 140, 90)">
+                <img src="imagenes/21.png" alt="Post 21">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/22.png', 160, 100)">
+                <img src="imagenes/22.png" alt="Post 22">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/23.png', 170, 110)">
+                <img src="imagenes/23.png" alt="Post 23">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/24.png', 180, 120)">
+                <img src="imagenes/24.png" alt="Post 24">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/25.png', 190, 130)">
+                <img src="imagenes/25.png" alt="Post 25">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/26.png', 200, 140)">
+                <img src="imagenes/26.png" alt="Post 26">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/27.png', 210, 150)">
+                <img src="imagenes/27.png" alt="Post 27">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/28.png', 220, 160)">
+                <img src="imagenes/28.png" alt="Post 28">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/29.png', 230, 170)">
+                <img src="imagenes/29.png" alt="Post 29">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/30.png', 240, 180)">
+                <img src="imagenes/30.png" alt="Post 30">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/31.png', 250, 190)">
+                <img src="imagenes/31.png" alt="Post 31">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/32.png', 260, 200)">
+                <img src="imagenes/32.png" alt="Post 32">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/33.png', 270, 210)">
+                <img src="imagenes/33.png" alt="Post 33">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/34.jpeg', 160, 80)">
+                <img src="imagenes/34.jpeg" alt="Post 34">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/35.JPG', 130, 100)">
+                <img src="imagenes/35.JPG" alt="Post 35">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/36.jpeg', 160, 220)">
+                <img src="imagenes/36.jpeg" alt="Post 36">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/37.jpeg', 260, 800)">
+                <img src="imagenes/37.jpeg" alt="Post 37">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/38.jpeg', 560, 200)">
+                <img src="imagenes/38.jpeg" alt="Post 38">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/39.jpeg', 280, 100)">
+                <img src="imagenes/39.jpeg" alt="Post 39">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+            <div class="post" onclick="openLightbox('imagenes/40.jpeg', 20, 100)">
+                <img src="imagenes/40.jpeg" alt="Post 40">
+                <div class="icons">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- Lightbox para mostrar imagen en grande -->
+    <div class="lightbox" id="lightbox">
+        <img src="" alt="Post Image" id="lightbox-image">
+        <div class="content">
+            <p><span id="likes-count">0</span> Me gusta</p>
+            <p><span id="comments-count">0</span> Comentarios</p>
+        </div>
+    </div>
+
+    <div class="bottom-bar">
+        <div>
+            <i class="fa-solid fa-house"></i>
+            <img src="imagenes/iconos/hogar 1.png" alt="home">
+        </div>
+        <div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <img src="imagenes/iconos/lupa 2.png" alt="search">
+        </div>
+        <div>
+            <i class="fa-regular fa-square-plus"></i>
+            <img src="imagenes/iconos/add 3.png" alt="add">
+        </div>
+        <div>
+            <i class="fa-regular fa-heart"></i>
+            <img src="imagenes/iconos/reel 4.png" alt="likes">
+        </div>
+        <div>
+            <i class="fa-regular fa-user"></i>
+            <img src="imagenes/iconos/perfil 5.webp" alt="profile">
+        </div>
+    </div>
+
+    <!-- Script para manejar el lightbox -->
+    <script>
+        function openLightbox(imageSrc, likes, comments) {
+            document.getElementById('lightbox').style.display = 'flex';
+            document.getElementById('lightbox-image').src = imageSrc;
+            document.getElementById('likes-count').textContent = likes;
+            document.getElementById('comments-count').textContent = comments;
+        }
+
+        // Cerrar el lightbox cuando se haga clic fuera de la imagen
+        document.getElementById('lightbox').addEventListener('click', function(e) {
+            if (e.target === this) {
+                this.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
